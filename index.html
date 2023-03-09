@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Augusto Acheriteguy</title>
+    <script src="function.js"></script>
+    </head>
+<body>
+        <!--Estructura de la página-->
+<div class="principal">
+    <div class="grilla">
+        <div class="intro">
+            <div class="nombres">AUGUSTO ACHERITEGUY</div>
+            <div class="bajada">Desarrollador Web</div>
+            <div class="descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt, 
+                nunc non mattis vulputate, ante leo auctor mi, quis lacinia sem mauris ut dui. Vestibulum a dui malesuada 
+                purus volutpat.</div>
+            <a href="#"><img src="insta.png" class="icono" id="insta" onmousemove="enColor1()" onmouseleave="enNegro1()"></a>
+            <a href="#"><img src="face.png" class="icono" id="face" onmousemove="enColor2()" onmouseleave="enNegro2()"></a>
+            <a href="#"><img src="whatsap.png" class="icono" id="wa" onmousemove="enColor3()" onmouseleave="enNegro3()"></a>
+        </div>
+    <img src="foto-pp.jpg" class="foto">
+    </div>
+</div>
+        <!--Grilla con botones-->
+<div class="grilla2">
+    <button type="button" class="boton" id="pers" onclick="window.location.href='#personal'">Personal</button>
+    <button type="button" class="boton" id="lab" onclick="window.location.href='#laboral'">Laboral</button>
+    <button type="button" class="boton" id="hab" onclick="window.location.href='#habilidades'">Habilidades</button>
+    <button type="button" class="boton" id="est" onclick="window.location.href='#educacion'">Estudios</button>    
+</div>
+        <!--Secciones-->
+<div class="caja"  id="personal">
+    <div class="titulo">Información Personal</div>
+    <div class="text">    
+        <ul>
+            <li>Edad: 42</li>
+            <li>Residencia: Córdoba</li>
+            <li>Nacimiento: 02/04/1980</li>
+            <li>Nacionalidad: Argentina</li>
+            <li>Telefono: 351-3325838</li>
+            <li>E-mail: augustoache@gmail.com</li>
+        </ul>
+    </div>
+</div>
+    
+<div class="caja" id="laboral">
+    <div class="titulo">Experiencia Laboral</div>
+    <div class="text">    
+        <ul>
+            <li>2004 - 2006 / Infodocta / Técnico de redes</li>
+            <li>2006 - 2011 / Neyra Hnos / Técnico OnSite</li>
+            <li>2012 - 2023 / Técnico freelance</li>
+        
+        </ul>
+    </div>
+</div>
+    
+<div class="caja" id="habilidades">
+    <div class="titulo">Habilidades</div>
+    <div class="text">    
+        <ul>
+            <li>Linux</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Java</li>
+            <li>Html</li>
+        </ul>
+    </div>
+</div>
+
+<div class="caja" id="educacion">
+    <div class="titulo">Estudios</div>
+    <div class="text">    
+        <ul>
+            <li>2003 - 2006 / Tecnicatura en Telecomunicaciones (Incompleto) / IUA </li>
+            <li>2019 - 2023 / Analista de Sistema (cursando tesis) / IES </li>
+            
+        </ul>
+    </div>
+</div>
+<div class="vacio"></div>
+
+
+</body>
+</html>
