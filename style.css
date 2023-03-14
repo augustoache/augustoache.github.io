@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 .principal {
-    background: linear-gradient(180deg, rgb(65, 75, 233), rgb(255, 255, 255));
+    background: linear-gradient(180deg, #3eb4ca, rgb(255, 255, 255));
     margin: 0px 0px 0px 0px;
     max-width: 100%;
     height: auto;
@@ -53,7 +53,7 @@ body {
     height: auto;
 }
 .caja {
-    background: linear-gradient(180deg, rgb(65, 75, 233), rgb(255, 255, 255));
+    background: linear-gradient(180deg, #30cfec, rgb(255, 255, 255));
     border-radius: 20px;
     height: auto;
     max-width: 90%;
@@ -90,6 +90,9 @@ body {
     border-width: 2px;
     border-style: solid;        
     
+}
+.ancla{
+    font-size: small;
 }
 .vacio {
     max-width: 90%;
