@@ -8,7 +8,7 @@ body {
     background: linear-gradient(180deg, #3eb4ca, rgb(255, 255, 255));
     margin: 0px 0px 0px 0px;
     max-width: 100%;
-    height: auto;
+    height: 500px;
 }
 .grilla {
     display: grid;
@@ -20,7 +20,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap:0px;
-    padding: 10px 50px 10px 80px;
+    padding: 10px 80px 10px 80px;
 }
 .intro {
     display: block;
@@ -62,7 +62,7 @@ body {
     height: auto;
     max-width: 90%;
     padding: 50px;
-    margin: 50px 50px 200px 80px;
+    margin: 50px 80px 200px 80px;
 }
 .titulo {
     font-family: "Roboto";
@@ -97,9 +97,4 @@ body {
 }
 .ancla{
     font-size: small;
-}
-.vacio {
-    max-width: 90%;
-    height: 200px;
-    margin: 200px;
 }
