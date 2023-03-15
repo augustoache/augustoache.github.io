@@ -98,3 +98,15 @@ body {
 .ancla{
     font-size: small;
 }
+.formulario{
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 15px;
+    margin: 15px;
+    line-height: 22px;
+}
+.formulario2{
+    padding: 20px 0px 40px 330px;
+}
+
+input[type=number] { appearance: textfield; }
