@@ -20,7 +20,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
     gap:0px;
-    padding: 10px 80px 10px 80px;
+    padding: 20px 80px 10px 80px;
 }
 .intro {
     display: block;
